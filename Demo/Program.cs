@@ -17,6 +17,14 @@ namespace TestConsoleApp
             pCon.EnableTimestamp = true;
             Print();
 
+            pCon.StopwatchColor = ConsoleColor.DarkMagenta;
+            pCon.TimestampColor = ConsoleColor.DarkGreen;
+            Print();
+
+            pCon.StopwatchColor = ConsoleColor.DarkGray;
+            pCon.TimestampColor = ConsoleColor.DarkGray;
+            Print();
+
             pCon.EnableStopwatch = false;
             Print();
 

@@ -10,6 +10,8 @@ namespace CoreySutton.PrettyCon
         private const ConsoleColor _defaultColor = ConsoleColor.Gray;
 
         public bool EnableTimestamp;
+        public ConsoleColor TimestampColor = ConsoleColor.DarkGray;
+        public ConsoleColor StopwatchColor = ConsoleColor.DarkGray;
 
         public bool EnableStopwatch
         {
@@ -146,7 +148,7 @@ namespace CoreySutton.PrettyCon
             {                
                 timestampOutput = $"[{DateTime.Now.ToString("HH:mm:ss")}] ";
 
-                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.ForegroundColor = TimestampColor;
                 Console.Write(timestampOutput);
                 Console.ForegroundColor = _defaultColor;
             }
@@ -161,7 +163,7 @@ namespace CoreySutton.PrettyCon
             {
                 stopwatchOutput = $" [{_stopwatch.ElapsedMilliseconds} ms]";
 
-                Console.ForegroundColor = ConsoleColor.DarkGray;
+                Console.ForegroundColor = StopwatchColor;
                 Console.Write(stopwatchOutput);
                 Console.ForegroundColor = _defaultColor;
             }
