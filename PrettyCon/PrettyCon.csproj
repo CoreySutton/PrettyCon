@@ -1,7 +1,13 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>CoreySutton.PrettyCon</AssemblyName>
+    <RootNamespace>CoreySutton.PrettyCon</RootNamespace>
+    <Version>0.1.0</Version>
+    <Authors>Corey Sutton</Authors>
+    <Company>Corey Sutton</Company>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 </Project>

@@ -17,6 +17,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Content", "Content", "{06CA
 		Content\Demo.png = Content\Demo.png
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{F8214138-D58F-4EE6-84A2-653E86B0FBE2}"
+	ProjectSection(SolutionItems) = preProject
+		Deployment\Nuget-Pack.bat = Deployment\Nuget-Pack.bat
+		Deployment\Nuget-Push.bat = Deployment\Nuget-Push.bat
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
